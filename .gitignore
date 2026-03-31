@@ -1,0 +1,51 @@
+# 🔐 ENVIRONMENT VARIABLES & SECRETS
+.env
+.env.local
+.env.*.local
+
+# 🛠️ IDE & EDITOR FILES
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# 🏗️ BUILD & COMPILATION
+/target/
+/build/
+/dist/
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+
+# 📦 DEPENDENCIES
+node_modules/
+/frontend/node_modules/
+package-lock.json
+npm-debug.log
+
+# ⚙️ GRADLE
+.gradle/
+gradle-wrapper.jar
+.gradle
+
+# 🔧 MAVEN
+.m2/
+
+# 🖥️ OS FILES
+Thumbs.db
+.DS_Store
+
+# 📝 LOCAL CONFIGS
+local.properties
+application-local.properties
+
+# ⚠️ NEVER COMMIT SECRETS
+application.properties.bak
+backup/
+*.backup
